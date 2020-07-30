@@ -14,7 +14,7 @@ import {Container} from "react-bootstrap"
 import SwiperCore, { A11y, Navigation } from "swiper"
 
 // Import Swiper styles
-import 'swiper/swiper.scss';
+import 'swiper/swiper-bundle.css';
 
 SwiperCore.use([Navigation, A11y]);
 

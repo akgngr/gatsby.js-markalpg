@@ -7,9 +7,10 @@
     align-items: center;
     flex-direction: column;
     height: 40vh !important;
-    svg{
-        width: 80%;
-    }
+    
+}
+.lpg-montaj .swiper-slide svg{
+	width: 80%;
 }
 .misyon-container .swiper-container{
     height: 450px;
@@ -29,13 +30,12 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    .card-body{
-        background: #4950577a;
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
-   
+}
+.misyon .card-body{
+	background: #4950577a;
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 .misyonbir{
     background-image: url("images/11.jpg");
@@ -58,18 +58,13 @@
 }
 .ariza-tespit{
     align-items: center;
-    svg{
-        height: 40px;
-    }
 }
-
-.ariza-tespit-cihazi{
-
-	
-	.gatsby-image-wrapper img{
-		left:13% !important;
-		top:23% !important;
-		height:auto !important;
-		width:auto !important;
-	}
+.ariza-tespit svg{
+	height: 40px;
+}
+.ariza-tespit-cihazi .gatsby-image-wrapper img{
+	left:13% !important;
+	top:23% !important;
+	height:auto !important;
+	width:auto !important;
 }
