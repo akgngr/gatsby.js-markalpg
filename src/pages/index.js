@@ -10,12 +10,9 @@ import Arizatespit from "../components/Arizatespit"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-
+    <SEO title="Gaziantep'in LPG Otogaz Hastanesi" />
     <Slider />
-
     <Carousel />
-
     <Misyon/>
     <Contact/>
     <Arizatespit/>

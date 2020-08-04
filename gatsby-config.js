@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Marka LPG`,
+    description: `Güneydoğunun ve Gaziantebin en çok tercih edilen LPG Montaj ve Tamir Özel Yetkili Servis.`,
+    author: `@akgngr`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

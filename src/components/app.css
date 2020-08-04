@@ -62,9 +62,39 @@
 .ariza-tespit svg{
 	height: 40px;
 }
+
+@media (min-width: 768px){
+    .ariza-tespit-cihazi .gatsby-image-wrapper img{
+        left:0 !important;
+        top:23% !important;
+        height:auto !important;
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) { 
+    .ariza-tespit-cihazi .gatsby-image-wrapper img{
+        left:13% !important;
+        top:23% !important;
+        height:auto !important;
+        width:auto !important;
+    }
+ }
+
+@media (max-width: 576px) { 
 .ariza-tespit-cihazi .gatsby-image-wrapper img{
-	left:13% !important;
-	top:23% !important;
-	height:auto !important;
-	width:auto !important;
+    left:10% !important;
+    top:23% !important;
+    height:auto !important;
+    width:auto !important;
+}
+}
+
+@media (min-width: 570px ) { 
+.ariza-tespit-cihazi .gatsby-image-wrapper img{
+    left:10% !important;
+    top:30% !important;
+    height:auto !important;
+    width:80% !important;
+}
 }

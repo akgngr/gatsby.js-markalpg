@@ -2,6 +2,7 @@ import React from "react"
 
 import {Container, Row, Col, Card} from "react-bootstrap"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Map from "./Maps"
 
 import Ultra from "./Svg/Ultra"
 import Romano from "./Svg/Romano"
@@ -18,7 +19,7 @@ import Yeni from "./images/yeni"
 SwiperCore.use([Pagination, A11y]);
 
 const params = {
-  slidesPerView: 8,
+  slidesPerView: 6,
   spaceBetween: 50,
   draggable: true,
   loop: true,
@@ -49,7 +50,7 @@ const params = {
 const Arizatespit = () => (
   <>
     <section className="ariza-tespit">
-      <Container className="text-center pt-lg-5 pb-lg-5">
+      <Container className="text-center mt-5 mb-5">
         <Row>
           <Col>
             <h2>LPG ve Araç Arıza Tespiti</h2>
@@ -71,34 +72,34 @@ const Arizatespit = () => (
         </Row>
         
         <Row className="ariza-tespit-cihazi">
-          <Col lg={6} sm={12}>
-			<Card>
-				<Card.Body>
-					<Card.Title>
-						<h3>Yeni Nesil Araçların Arıza Tespiti</h3>
-					</Card.Title>
-					<hr />
-					<Card.Text>
-						<Yeni />
-					</Card.Text>
-				</Card.Body>
-			</Card>
+          <Col lg={6} sm={12} md={6}>
+            <Card>
+              <Card.Body>
+                <Card.Title>
+                  <h3>Yeni Nesil Araçların Arıza Tespiti</h3>
+                </Card.Title>
+                <hr />
+                <Card.Text>
+                  <Yeni />
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
-          <Col lg={6} sm={12}>
-			<Card>
-				<Card.Body>
-					<Card.Title>
-						<h3>Eski Nesil Araçların Arıza Tespiti</h3>
-					</Card.Title>
-					<hr />
-					<Card.Text>
-						<Eski />
-					</Card.Text>
-				</Card.Body>
-			</Card>
+          <Col lg={6} sm={12} md={6}>
+            <Card>
+              <Card.Body>
+                <Card.Title>
+                  <h3>Eski Nesil Araçların Arıza Tespiti</h3>
+                </Card.Title>
+                <hr />
+                <Card.Text>
+                  <Eski />
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
-		<Row className="pt-3 pb-3">
+        <Row className="mt-5 pb-3">
           <Swiper {...params} pagination={{ clickable: true }} className="pt-2 pb-5">
             <SwiperSlide><Ultra /></SwiperSlide>
             <SwiperSlide><Romano/></SwiperSlide>

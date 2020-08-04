@@ -31,11 +31,11 @@ const Layout = ({ children }) => {
       <main>
         {children}
       </main>
-      <footer>
+      <footer className="bg-dark text-white-50 pt-5 pb-5">
         <Container>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Tüm hakları saklıdır.
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a className="text-info" href="https://www.gatsbyjs.org">Marka LPG</a>
         </Container>
       </footer>
     </>
