@@ -2,7 +2,6 @@ import React from "react"
 
 import {Container, Row, Col, Card} from "react-bootstrap"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Map from "./Maps"
 
 import Ultra from "./Svg/Ultra"
 import Romano from "./Svg/Romano"
