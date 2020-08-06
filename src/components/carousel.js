@@ -38,7 +38,7 @@ const params = {
       spaceBetween: 20
     },
     320: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 10
     },
     zoom:{
@@ -61,9 +61,9 @@ const Slider = () => (
         </div>
 
         <Swiper {...params} navigation className="pt-2 pb-5">
-          <SwiperSlide><Ultra className="toplogo"/><Romano/></SwiperSlide>
-          <SwiperSlide><Vikars className="toplogo" /><Brc /></SwiperSlide>
-          <SwiperSlide><Akl className="toplogo" /><Nlp/></SwiperSlide>
+          <SwiperSlide><Brc className="toplogo"/><Vikars/></SwiperSlide>
+          <SwiperSlide><Akl className="toplogo" /><Ultra /></SwiperSlide>
+          <SwiperSlide><Romano className="toplogo" /><Nlp/></SwiperSlide>
           <SwiperSlide><Destro className="toplogo" /><Okcan/></SwiperSlide>
         </Swiper>
 
