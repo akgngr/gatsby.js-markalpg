@@ -25,8 +25,8 @@ const params = {
   autoplay: 50,
   breakpoints: {
     1024: {
-      slidesPerView: 8,
-      spaceBetween: 40
+      slidesPerView: 6,
+      spaceBetween: 30
     },
     768: {
       slidesPerView: 4,
@@ -55,7 +55,7 @@ const Arizatespit = () => (
             <h2>LPG ve Araç Arıza Tespiti</h2>
           </Col>
         </Row>
-        <Row>
+        <Row className="pb-3">
           <Col>
             <h3>LPG Tamiri</h3>
           </Col>
@@ -63,15 +63,15 @@ const Arizatespit = () => (
         
         <Row>
           <Col>
-            <p>
+            <p className="text-secondary">
               Her türlü Lpg ve Araç arıza tespiti yapıyoruz. LPG arızalarını hızlı ve güvenilir bir şekilde onarıyoruz.
               Bünyemizde piyasadaki bir çok Lpg Firmasının yedek parçası bulunmaktadır.
             </p>
           </Col>
         </Row>
         
-        <Row className="ariza-tespit-cihazi">
-          <Col lg={6} sm={12} md={6}>
+        <Row className="ariza-tespit-cihazi pt-3">
+          <Col lg={6} sm={12} md={6} className="pt-3">
             <Card>
               <Card.Body>
                 <Card.Title>
@@ -84,16 +84,18 @@ const Arizatespit = () => (
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={6} sm={12} md={6}>
+          <Col lg={6} sm={12} md={6} className="pt-3">
             <Card>
               <Card.Body>
                 <Card.Title>
                   <h3>Eski Nesil Araçların Arıza Tespiti</h3>
                 </Card.Title>
                 <hr />
+                <div>
                 <Card.Text>
                   <Eski />
                 </Card.Text>
+                </div>
               </Card.Body>
             </Card>
           </Col>

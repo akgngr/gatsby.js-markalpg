@@ -41,7 +41,7 @@ const params = {
 
 const Misyon = () => (
   <>
-    <section className="bg-light pt-lg-5 pb-lg-5 misyon-container">
+    <section className="bg-light pt-3 pb-3 misyon-container">
       <Container fluid>
         <Swiper
           {...params}

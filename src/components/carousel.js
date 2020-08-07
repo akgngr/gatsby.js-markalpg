@@ -53,15 +53,15 @@ const Slider = () => (
       <Container>
 
         <div className="text-center pt-5 pb-5">
-          <h3 className="display-3">LPG Montajı</h3>
-          <p>Sıfır ve İkinci el araçlarınıza LPG montajı yapıyoruz.
+          <h2>LPG Montajı</h2>
+          <p className="text-secondary">Sıfır ve İkinci el araçlarınıza LPG montajı yapıyoruz.
             Araçlarınızın <b>FSI</b> veya <b>TSI</b> motorlarına LPG Montajını profosyenel ekibimizce hatasız bir şekilde yapıyoruz.
             LPG Sistemi Montajına proje ve diğer her şey dahildir. Montajını yaptığımız ve anlaşmalı bayisi olduğumuz <b>LPG Sistemleri</b>
           </p>
         </div>
 
         <Swiper {...params} navigation className="pt-2 pb-5">
-          <SwiperSlide><Brc className="toplogo"/><Vikars/></SwiperSlide>
+          <SwiperSlide><Brc className="toplogo brc"/><Vikars/></SwiperSlide>
           <SwiperSlide><Akl className="toplogo" /><Ultra /></SwiperSlide>
           <SwiperSlide><Romano className="toplogo" /><Nlp/></SwiperSlide>
           <SwiperSlide><Destro className="toplogo" /><Okcan/></SwiperSlide>

@@ -12,6 +12,9 @@
 .lpg-montaj .swiper-slide svg{
 	width: 60%;
 }
+.brc{
+    height: 95px;
+}
 .misyon-container .swiper-container{
     height: 450px;
     
@@ -56,45 +59,59 @@
     fill: white;
     width: 36px;
 }
+.mapscontact svg{
+    fill: #17a2b8;
+    width: 26px;
+    margin-right: .5rem;
+}
 .ariza-tespit{
     align-items: center;
 }
 .ariza-tespit svg{
-	height: 40px;
+	height: 35px;
+}
+.gatsby-image-wrapper{
+    position: relative;
+}
+.googlemaps iframe{
+    border: none;
+    border-width: 0;
+
+}
+@media (max-width: 575.98px) { 
+    .ariza-tespit-cihazi .gatsby-image-wrapper img{
+        left:10% !important;
+        top:30% !important;
+        height:auto !important;
+        width:80% !important;
+    }
 }
 
 @media (min-width: 768px){
     .ariza-tespit-cihazi .gatsby-image-wrapper img{
-        left:0 !important;
-        top:23% !important;
+        left:5% !important;
+        top:30% !important;
         height:auto !important;
-        width: 100% !important;
+        width: 90% !important;
     }
 }
 
 @media (min-width: 992px) { 
     .ariza-tespit-cihazi .gatsby-image-wrapper img{
-        left:13% !important;
-        top:23% !important;
+        left:10% !important;
+        top:25% !important;
         height:auto !important;
-        width:auto !important;
+        width:80% !important;
     }
  }
 
-@media (max-width: 576px) { 
-.ariza-tespit-cihazi .gatsby-image-wrapper img{
-    left:10% !important;
-    top:23% !important;
-    height:auto !important;
-    width:80% !important;
-}
+ @media (min-width: 1200px) { 
+    .ariza-tespit-cihazi .gatsby-image-wrapper img{
+        left:10% !important;
+        top:20% !important;
+        height:auto !important;
+        width:80% !important;
+    }
 }
 
-@media (min-width: 570px ) { 
-.ariza-tespit-cihazi .gatsby-image-wrapper img{
-    left:10% !important;
-    top:30% !important;
-    height:auto !important;
-    width:80% !important;
-}
-}
+

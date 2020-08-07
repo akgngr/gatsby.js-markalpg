@@ -7,6 +7,8 @@ import Carousel from "../components/carousel"
 import Misyon from "../components/Misyon"
 import Contact from "../components/contact"
 import Arizatespit from "../components/Arizatespit"
+import Maps from "../components/maps"
+import Egzos from "../components/egzos";
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +18,8 @@ const IndexPage = () => (
     <Misyon/>
     <Contact/>
     <Arizatespit/>
+    <Egzos />
+    <Maps/>
   </Layout>
 )
 
