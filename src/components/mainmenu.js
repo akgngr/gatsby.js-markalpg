@@ -9,9 +9,9 @@ import {
 
 import { Brand } from "react-bootstrap/Navbar"
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <Navbar expand="lg" fixed="top" className="shadow navbar navbar-expand-lg navbar-light bg-white">
+const Mainmenu = ({ siteTitle }) => (
+
+    <Navbar expand="lg" sticky={"top"} className="shadow navbar navbar-expand-lg navbar-light bg-white">
       <Container fluid>
         <Navbar.Brand href="#home">
           <Link to="/">{siteTitle}</Link>
@@ -21,39 +21,32 @@ const Header = ({ siteTitle }) => (
 
           <Nav className="ml-auto" as="ul">
             <Nav.Item as="li">
-              <Nav.Link href="/">Anasayfa</Nav.Link>
+              <Nav.Link href="#ana">Anasayfa</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/page-2/">Hakkımızda</Nav.Link>
+              <Nav.Link href="#lpgMontaj">Lpg Montajı</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/bayilikler/">Bayilikler</Nav.Link>
+              <Nav.Link href="#arizaTespit">Lpg Arıza Tespiti</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/lpg-montaji/">Lpg Montajı</Nav.Link>
+              <Nav.Link href="#egzos">Egzos Emisyon</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/lpg-ariza-tespiti/">Lpg Arıza Tespiti</Nav.Link>
-            </Nav.Item>
-            <Nav.Item as="li">
-              <Nav.Link href="/egzos-emisyonu-olcumu/">Egzos Emisyon</Nav.Link>
-            </Nav.Item>
-            <Nav.Item as="li">
-              <Nav.Link href="/iletisim/">İletişim</Nav.Link>
+              <Nav.Link href="#iletisim">İletişim</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  </header>
 )
 
-Header.propTypes = {
+Mainmenu.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Mainmenu.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Mainmenu

@@ -15,7 +15,7 @@ const params = {
 
 const Slider = () => (
     <>
-        <section className="carousel-container">
+        <section id="ana" className="carousel-container">
             <Swiper>
                 <SwiperSlide>
                     <Sliderbir/>

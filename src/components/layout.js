@@ -12,7 +12,7 @@ import { Container } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/app.css"
 
-import Header from "./header"
+import Mainmenu from "./mainmenu"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Mainmenu siteTitle={data.site.siteMetadata.title} />
       <main>
         {children}
       </main>

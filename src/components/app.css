@@ -52,9 +52,6 @@
 .misyondort{
     background-image: url("images/14.jpg");
 }
-.gatsby-image-wrapper{
-    position: static !important;
-}
 .contact svg{
     fill: white;
     width: 36px;
@@ -78,37 +75,23 @@
     border-width: 0;
 
 }
+. gatsby-image-wrapper{
+    position: relative !important;
+    background-clip: border-box;
+}
+
 @media (max-width: 575.98px) { 
     .ariza-tespit-cihazi .gatsby-image-wrapper img{
-        left:10% !important;
-        top:30% !important;
+
         height:auto !important;
-        width:80% !important;
+
     }
 }
-
-@media (min-width: 768px){
-    .ariza-tespit-cihazi .gatsby-image-wrapper img{
-        left:5% !important;
-        top:30% !important;
-        height:auto !important;
-        width: 90% !important;
-    }
-}
-
-@media (min-width: 992px) { 
-    .ariza-tespit-cihazi .gatsby-image-wrapper img{
-        left:10% !important;
-        top:25% !important;
-        height:auto !important;
-        width:80% !important;
-    }
- }
 
  @media (min-width: 1200px) { 
     .ariza-tespit-cihazi .gatsby-image-wrapper img{
         left:10% !important;
-        top:20% !important;
+        top:10% !important;
         height:auto !important;
         width:80% !important;
     }

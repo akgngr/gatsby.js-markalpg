@@ -48,7 +48,7 @@ const params = {
 
 const Arizatespit = () => (
   <>
-    <section className="ariza-tespit">
+    <section id="arizaTespit" className="ariza-tespit">
       <Container className="text-center mt-5 mb-5">
         <Row>
           <Col>
@@ -71,7 +71,7 @@ const Arizatespit = () => (
         </Row>
         
         <Row className="ariza-tespit-cihazi pt-3">
-          <Col lg={6} sm={12} md={6} className="pt-3">
+          <Col lg={6} sm={6} xs={12} md={6} className="pt-3">
             <Card>
               <Card.Body>
                 <Card.Title>
@@ -84,7 +84,7 @@ const Arizatespit = () => (
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={6} sm={12} md={6} className="pt-3">
+          <Col lg={6} sm={6} xs={12} md={6} className="pt-3">
             <Card>
               <Card.Body>
                 <Card.Title>

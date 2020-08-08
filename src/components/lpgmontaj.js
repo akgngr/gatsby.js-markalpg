@@ -47,9 +47,9 @@ const params = {
   }
 };
 
-const Slider = () => (
+const LpgMontaj = () => (
   <>
-    <section className="lpg-montaj pt-4 pb-4">
+    <section id="lpgMontaj" className="lpg-montaj pt-4 pb-4">
       <Container>
 
         <div className="text-center pt-5 pb-5">
@@ -74,4 +74,4 @@ const Slider = () => (
 
 
 
-export default Slider;
+export default LpgMontaj;

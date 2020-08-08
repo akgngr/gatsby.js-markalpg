@@ -10,7 +10,7 @@ import Iframe from "react-iframe"
 const Maps = () => (
 
     <>
-        <section id="maps" className="maps pt-3 pb-5">
+        <section id="iletisim" className="maps pt-3 pb-5">
             <Container>
                 <Row className="pb-5 text-center">
                     <Col lg={12}><h2 >İletişim</h2></Col>
@@ -21,7 +21,7 @@ const Maps = () => (
                         <Iframe
                             url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12730.845594848419!2d37.435648!3d37.08818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e509c43f63a3%3A0x477dd075623e471e!2sTrikocular%20Sitesi!5e0!3m2!1str!2str!4v1596816105692!5m2!1str!2str"
                             width="100%"
-                            height="100%"
+                            height="400px"
                             display="initial"
                             position="relative"
                             allowFullScreen
@@ -51,7 +51,7 @@ const Maps = () => (
                                 <th>Adres:</th>
                             </tr>
                             <tr>
-                                <td className="text-info"><Harita />Gatem İş Bankası arkası, Marka LPG Şehitkamil / Gaziantep</td>
+                                <td className="text-info"><Harita />Küsget İş Bankası arkası, Marka LPG Şehitkamil / Gaziantep</td>
                             </tr>
                         </Table>
                     </Col>
