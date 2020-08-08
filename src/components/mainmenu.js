@@ -13,8 +13,8 @@ const Mainmenu = ({ siteTitle }) => (
 
     <Navbar expand="lg" sticky={"top"} className="shadow navbar navbar-expand-lg navbar-light bg-white">
       <Container fluid>
-        <Navbar.Brand href="#home">
-          <Link to="/">{siteTitle}</Link>
+        <Navbar.Brand href="#ana">
+          {siteTitle}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
