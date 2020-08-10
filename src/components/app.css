@@ -96,5 +96,9 @@
         width:80% !important;
     }
 }
-
+@media (max-width: 575.98px) {
+    .swiper-container, .swiper-wrapper {
+        height: 50vh !important;
+    }
+}
 
