@@ -10,13 +10,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 
 const params = {
-
+    autoplay:{delay: 5000,}
 };
 
 const Slider = () => (
     <>
-        <section id="ana" className="carousel-container">
-            <Swiper>
+        <section id="ana" >
+            <Swiper {...params}>
                 <SwiperSlide>
                     <Sliderbir/>
                 </SwiperSlide>

@@ -14,6 +14,7 @@ import Okcan from "./Svg/Okcan"
 import SwiperCore, { A11y, Pagination } from "swiper"
 import Eski from "./images/eski"
 import Yeni from "./images/yeni"
+import Atiker from "./Svg/atiker";
 
 SwiperCore.use([Pagination, A11y]);
 
@@ -102,11 +103,12 @@ const Arizatespit = () => (
         </Row>
         <Row className="mt-5 pb-3">
           <Swiper {...params} pagination={{ clickable: true }} className="pt-2 pb-5">
-            <SwiperSlide><Ultra /></SwiperSlide>
-            <SwiperSlide><Romano/></SwiperSlide>
-            <SwiperSlide><Vikars /></SwiperSlide>
             <SwiperSlide><Brc /></SwiperSlide>
             <SwiperSlide><Akl /></SwiperSlide>
+            <SwiperSlide><Romano/></SwiperSlide>
+            <SwiperSlide><Atiker /></SwiperSlide>
+            <SwiperSlide><Vikars /></SwiperSlide>
+            <SwiperSlide><Ultra /></SwiperSlide>
             <SwiperSlide><Nlp/></SwiperSlide>
             <SwiperSlide><Destro /></SwiperSlide>
             <SwiperSlide><Okcan/></SwiperSlide>
