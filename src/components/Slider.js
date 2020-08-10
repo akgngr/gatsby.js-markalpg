@@ -18,7 +18,7 @@ const params = {
 
 const Slider = () => (
     <>
-        <section id="ana" >
+        <section id="ana" className="slider">
             <Swiper {...params} pagination={{ clickable: true }}>
                 <SwiperSlide>
                     <Sliderbir/>
