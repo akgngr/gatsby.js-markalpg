@@ -23,7 +23,7 @@ const params = {
   spaceBetween: 50,
   draggable: true,
   loop: true,
-  autoplay: 50,
+  delay:300,
   breakpoints: {
     1024: {
       slidesPerView: 6,

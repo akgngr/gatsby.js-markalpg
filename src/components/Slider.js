@@ -10,13 +10,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 
 const params = {
-    autoplay:{delay: 5000,}
+    autoplay:{delay: 5000,},
+    autoHeight: true,
+    height: 600,
+    loop: true,
 };
 
 const Slider = () => (
     <>
         <section id="ana" >
-            <Swiper {...params}>
+            <Swiper {...params} pagination={{ clickable: true }}>
                 <SwiperSlide>
                     <Sliderbir/>
                 </SwiperSlide>
