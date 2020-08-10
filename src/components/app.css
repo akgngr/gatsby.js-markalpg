@@ -104,4 +104,11 @@
 .slider .swiper-container .swiper-slide {
     height: auto;
 }
-.slider .swiper-container .swiper-slide img {width:100%; }
+.slider .swiper-container .swiper-slide img {
+    width:100%;
+    height: auto;
+}
+
+.slider .swiper-container .swiper-slide .gatsby-image-wrapper{
+    height: 60vh;
+}
