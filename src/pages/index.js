@@ -11,7 +11,7 @@ import Maps from "../components/maps"
 import Egzos from "../components/egzos";
 
 const IndexPage = () => (
-  <Layout>
+  <Layout >
     <SEO title="Gaziantep'in LPG Otogaz Hastanesi" />
     <Slider />
     <LpgMontaj />

@@ -19,7 +19,7 @@ const Maps = () => (
                 <Row>
                     <Col className="googlemaps" lg={6} md={6} sm={12} xs={12}>
                         <Iframe
-                            url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12730.845594848419!2d37.435648!3d37.08818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e509c43f63a3%3A0x477dd075623e471e!2sTrikocular%20Sitesi!5e0!3m2!1str!2str!4v1596816105692!5m2!1str!2str"
+                            url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d795.7704408566768!2d37.430409629198984!3d37.07935946867831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e5b67e53271d%3A0x3cda8068a8e7c8cc!2sSanayi%2C%2060053.%20Cd.%20No%3A2%2C%2027110%20%C5%9Eehitkamil%2FGaziantep!5e0!3m2!1str!2str!4v1597223301516!5m2!1str!2str"
                             width="100%"
                             height="400px"
                             display="initial"
@@ -51,7 +51,7 @@ const Maps = () => (
                                 <th>Adres:</th>
                             </tr>
                             <tr>
-                                <td className="text-info"><Harita />Küsget İş Bankası arkası, Marka LPG Şehitkamil / Gaziantep</td>
+                                <td className="text-info"><Harita /><a className="text-info" target="_blank" href="https://goo.gl/maps/AhLwDNfDapPfkbRD7">Sanayi Mahallesi, 60029 Nolu Cad. Kuveyt Türk Küsget Şubesi arkası, Marka LPG, Küsget, Şehitkamil / Gaziantep</a></td>
                             </tr>
                         </Table>
                     </Col>

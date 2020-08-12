@@ -26,11 +26,7 @@ const Egzos = () =>(
                         </ul>
                         <Link to="#maps">Detaylı bilgi için iletişime geçin.</Link>
                     </Col>
-                    <Col lg={6} sm={12} md={6} xs={12}>
-                        <Container>
-                            <EgzosEmisyonu />
-                        </Container>
-                    </Col>
+                    <Col lg={6} sm={12} md={6} xs={12}><EgzosEmisyonu /></Col>
                 </Row>
             </Container>
         </section>

@@ -79,8 +79,6 @@
     position: relative !important;
     background-clip: border-box;
 }
-
-
 .slider .swiper-container {
     /* height:500px; */ /* This solution causes gaps because the images are resized */
     height:auto;
@@ -92,8 +90,6 @@
     width:100%;
     height: auto;
 }
-
-
 @media (max-width: 575.98px) { 
     .ariza-tespit-cihazi .gatsby-image-wrapper img{
         height:auto !important;
@@ -102,7 +98,6 @@
         height: 60vh;
     }
 }
-
 @media (min-width: 1200px) {
     .ariza-tespit-cihazi .gatsby-image-wrapper img{
         left:10% !important;
