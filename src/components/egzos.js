@@ -9,7 +9,7 @@ const Egzos = () =>(
             <Container>
                 <Row className="text-center pb-5">
                     <Col lg={12}>
-                        <h3>Yetkili Egzoz Gazı Emisyon Ölçümü</h3>
+                        <h2>Marka Otogaz Yetkili Egzoz Gazı Emisyon Ölçümü</h2>
                     </Col>
                     <Col lg={12}>
                         <p className="text-secondary">Servisimizde yetkili egzos emisyonu ölçümü yapılmaktadır.</p>

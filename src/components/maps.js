@@ -13,7 +13,7 @@ const Maps = () => (
         <section id="iletisim" className="maps pt-3 pb-5">
             <Container>
                 <Row className="pb-5 text-center">
-                    <Col lg={12}><h2 >İletişim</h2></Col>
+                    <Col lg={12}><h2>Marka Otogaz İletişim</h2></Col>
                     <Col lg={12}><p className="text-secondary">Randevu almak veya bilgi almak için bizimle iletişime geçin.</p></Col>
                 </Row>
                 <Row>

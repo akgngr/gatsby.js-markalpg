@@ -53,7 +53,7 @@ const Arizatespit = () => (
       <Container className="text-center mt-5 mb-5">
         <Row>
           <Col>
-            <h2>LPG ve Araç Arıza Tespiti</h2>
+            <h2>Marka Otogaz LPG ve Araç Arıza Tespiti</h2>
           </Col>
         </Row>
         <Row className="pb-3">

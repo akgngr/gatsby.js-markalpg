@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         <Container>
           © {new Date().getFullYear()}, Tüm hakları saklıdır.
           {` `}
-          <a className="text-info" href="https://www.gatsbyjs.org">Marka LPG</a>
+          <a className="text-info" href="https://www.markaotogaz.com">Marka Otogaz</a>
         </Container>
       </footer>
     </>

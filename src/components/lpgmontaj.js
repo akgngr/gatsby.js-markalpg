@@ -53,7 +53,7 @@ const LpgMontaj = () => (
       <Container>
 
         <div className="text-center pt-5 pb-5">
-          <h2>LPG Montajı</h2>
+          <h1>Marka Otogaz LPG Montajı</h1>
           <p className="text-secondary">Sıfır ve İkinci el araçlarınıza LPG montajı yapıyoruz.
             Araçlarınızın <b>FSI</b> veya <b>TSI</b> motorlarına LPG Montajını profosyenel ekibimizce hatasız bir şekilde yapıyoruz.
             LPG Sistemi Montajına proje ve diğer her şey dahildir. Montajını yaptığımız ve anlaşmalı bayisi olduğumuz <b>LPG Sistemleri</b>

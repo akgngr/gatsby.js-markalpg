@@ -40,6 +40,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: `Gaziantep, Gazikent, Küsget, Lpg Montajı, Otogaz Montajı, Lpg Tamiri, Otogaz Tamiri`
+        },
+        {
           name: `viewport`,
           content:`width=device-width, user-scalable=no`,
 

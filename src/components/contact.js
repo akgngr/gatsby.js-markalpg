@@ -9,7 +9,7 @@ const Contact = () => (
   <>
     <section className="bg-info contact pb-4 pt-4">
       <Container fluid>
-        <Row><Col className="text-white pt-4 pb-4 text-center "><h3>Aracınızda bir problem mi var! Çekinmeden arayın.</h3></Col></Row>
+        <Row><Col className="text-white pt-4 pb-4 text-center "><h2>Aracınızda bir problem mi var! Çekinmeden arayın.</h2></Col></Row>
         <Row>
           <Col sm={12} lg={4} md={4}>
             <Nav.Link href="tel:03422355858" className="text-white ">

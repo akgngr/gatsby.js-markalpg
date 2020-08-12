@@ -1,6 +1,7 @@
+import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+
 import {
   Navbar,
   Nav,
@@ -21,19 +22,19 @@ const Mainmenu = ({ siteTitle }) => (
 
           <Nav className="ml-auto" as="ul">
             <Nav.Item as="li">
-              <Nav.Link href="#ana">Anasayfa</Nav.Link>
+              <Link to="#ana" activeClassName="active" partiallyActive={true} className="nav-link">Anasayfa</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="#lpgMontaj">Lpg Montajı</Nav.Link>
+              <Link to="#lpgMontaj" activeClassName="active" partiallyActive={true} className="nav-link">Lpg Montajı</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="#arizaTespit">Lpg Arıza Tespiti</Nav.Link>
+              <Link to="#arizaTespit" activeClassName="active" partiallyActive={true} className="nav-link">Lpg Arıza Tespiti</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="#egzos">Egzos Emisyon</Nav.Link>
+              <Link to="#egzos" activeClassName="active" partiallyActive={true} className="nav-link">Egzos Emisyon</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="#iletisim">İletişim</Nav.Link>
+              <Link to="#iletisim" activeClassName="active" partiallyActive={true} className="nav-link">İletişim</Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
