@@ -11,14 +11,14 @@ const Slideriki = () => {
       ) {
         childImageSharp {
           fluid(maxWidth: 414, quality: 100) {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       desktopImage: file(relativePath: { eq: "slider/lpg-tamir.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1265, quality: 100) {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
