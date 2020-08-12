@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "GTM-5N4ZXCP",
+        id: "GTM-KFVSSHW",
 
         // Include GTM in development.
         //
@@ -56,11 +56,6 @@ module.exports = {
         //
         // Defaults to null
         defaultDataLayer: { platform: "gatsby" },
-
-        // Specify optional GTM environment details.
-        gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
-        gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
-        dataLayerName: "YOUR_DATA_LAYER_NAME",
 
         // Name of the event that is triggered
         // on every Gatsby route change.
