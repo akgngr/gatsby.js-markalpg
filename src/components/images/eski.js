@@ -15,7 +15,7 @@ const Eski = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt={"Eski nesil araçlar için arıza tespit cihazı"}/>
 }
 
 export default Eski

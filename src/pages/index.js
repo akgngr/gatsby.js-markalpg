@@ -8,11 +8,13 @@ import Misyon from "../components/Misyon"
 import Contact from "../components/contact"
 import Arizatespit from "../components/Arizatespit"
 import Maps from "../components/maps"
-import Egzos from "../components/egzos";
+import Egzos from "../components/egzos"
+import Ldjson from "../components/ldjson"
 
 const IndexPage = () => (
   <Layout >
-    <SEO title="Gaziantep'in LPG Otogaz Hastanesi" />
+      <Ldjson />
+    <SEO title  ="Gaziantep'in LPG Otogaz Hastanesi" />
     <Slider />
     <LpgMontaj />
     <Misyon/>

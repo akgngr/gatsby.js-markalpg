@@ -15,7 +15,7 @@ const EgzosEmisyonu = () => {
     }
   `)
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt={"Yetkili egzos emisyon ölçüm istasyonu"}/>
 }
 
 export default EgzosEmisyonu

@@ -31,6 +31,6 @@ const Slideriki = () => {
       media: `(min-width: 625px)`,
     },
   ]
-  return <Img fluid={sources} alt="Illustrated Monica" />
+  return <Img fluid={sources} alt="Yetkili Lpg Tamiri Özel Servisi" />
 }
 export default Slideriki

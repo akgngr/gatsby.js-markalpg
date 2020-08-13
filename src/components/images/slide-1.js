@@ -32,6 +32,6 @@ const Sliderbir = () => {
       media: `(min-width: 625px)`,
     },
   ]
-  return <Img fluid={sources} alt="Illustrated Monica" />
+  return <Img fluid={sources} alt="Yetkili Lpg Montaj Özel Servisi" />
 }
 export default Sliderbir

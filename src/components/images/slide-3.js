@@ -30,6 +30,6 @@ const Slideruc = () => {
       media: `(min-width: 625px)`,
     },
   ]
-  return <Img fluid={sources} alt="Illustrated Monica" />
+  return <Img fluid={sources} alt="Egzos emisyonu" />
 }
 export default Slideruc
