@@ -2,8 +2,7 @@ import React from "react"
 
 import loadable from '@loadable/component'
 
-
-const Layout = loadable(() => import("../components/layout"));
+import Layout from "../components/layout"
 const SEO = loadable(() => import("../components/seo"));
 const Slider = loadable(() => import("../components/Slider"));
 const LpgMontaj = loadable(() => import("../components/lpgmontaj"));
