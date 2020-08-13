@@ -41,16 +41,16 @@
 	align-items: center;
 }
 .misyonbir{
-    background-image: url("images/11.jpg");
+    background-image: url("images/11.webp");
 }
 .misyoniki{
-    background-image: url("images/12.jpg");
+    background-image: url("images/12.webp");
 }
 .misyonuc{
-    background-image: url("images/13.jpg");
+    background-image: url("images/13.webp");
 }
 .misyondort{
-    background-image: url("images/14.jpg");
+    background-image: url("images/14.webp");
 }
 .contact svg{
     fill: white;

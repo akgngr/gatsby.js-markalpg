@@ -1,15 +1,18 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Slider from "../components/Slider"
-import LpgMontaj from "../components/lpgmontaj"
-import Misyon from "../components/Misyon"
-import Contact from "../components/contact"
-import Arizatespit from "../components/Arizatespit"
-import Maps from "../components/maps"
-import Egzos from "../components/egzos"
-import Ldjson from "../components/ldjson"
+import loadable from '@loadable/component'
+
+
+const Layout = loadable(() => import("../components/layout"));
+const SEO = loadable(() => import("../components/seo"));
+const Slider = loadable(() => import("../components/Slider"));
+const LpgMontaj = loadable(() => import("../components/lpgmontaj"));
+const Misyon = loadable(() => import("../components/Misyon"));
+const Contact = loadable(() => import("../components/contact"));
+const Arizatespit = loadable(() => import("../components/Arizatespit"));
+const Maps = loadable(() => import("../components/maps"));
+const Egzos = loadable(() => import("../components/egzos"));
+const Ldjson = loadable(() => import("../components/ldjson"));
 
 const IndexPage = () => (
   <Layout >
