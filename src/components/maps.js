@@ -1,10 +1,13 @@
 import React from "react"
+
 import { Container, Row, Col, Table } from "react-bootstrap"
 import Whatsapp from "../components/Svg/Whatsapp"
 import Sabittel from "../components/Svg/Sabittel"
 import Smartphone from "../components/Svg/Smartphone"
 import Harita from "../components/Svg/harita";
 import Iframe from "react-iframe"
+
+const isSSR = typeof window === "undefined"
 
 const Maps = () => (
 
@@ -17,14 +20,18 @@ const Maps = () => (
                 </Row>
                 <Row>
                     <Col className="googlemaps" lg={6} md={6} sm={12} xs={12}>
-                        <Iframe
-                            url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d795.7704408566768!2d37.430409629198984!3d37.07935946867831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e5b67e53271d%3A0x3cda8068a8e7c8cc!2sSanayi%2C%2060053.%20Cd.%20No%3A2%2C%2027110%20%C5%9Eehitkamil%2FGaziantep!5e0!3m2!1str!2str!4v1597223301516!5m2!1str!2str"
-                            width="100%"
-                            height="400px"
-                            display="initial"
-                            position="relative"
-                            allowFullScreen
-                        />
+                    {!isSSR && (
+                        <React.Suspense fallback={<div />}>
+                            <Iframe
+                                url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d795.7704408566768!2d37.430409629198984!3d37.07935946867831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e5b67e53271d%3A0x3cda8068a8e7c8cc!2sSanayi%2C%2060053.%20Cd.%20No%3A2%2C%2027110%20%C5%9Eehitkamil%2FGaziantep!5e0!3m2!1str!2str!4v1597223301516!5m2!1str!2str"
+                                width="100%"
+                                height="400px"
+                                display="initial"
+                                position="relative"
+                                allowFullScreen
+                            />
+                        </React.Suspense>
+                    )}
                     </Col>
                     <Col lg={6} md={6} sm={12} xs={12}>
                         <Table responsive borderless hover className="mapscontact">

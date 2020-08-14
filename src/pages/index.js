@@ -11,12 +11,10 @@ const Contact = loadable(() => import("../components/contact"));
 const Arizatespit = loadable(() => import("../components/Arizatespit"));
 const Egzos = loadable(() => import("../components/egzos"));
 const Ldjson = loadable(() => import("../components/ldjson"));
-const Maps = React.lazy(() => import("../components/maps"));
+const Maps = loadable(() => import("../components/maps"));
 
 function IndexPage()
 {
-    const isSSR = typeof window === "undefined"
-
     return(
         <>
             <Layout >
@@ -28,11 +26,7 @@ function IndexPage()
                 <Contact/>
                 <Arizatespit/>
                 <Egzos />
-                {!isSSR && (
-                    <React.Suspense fallback={<div />}>
-                        <Maps/>
-                    </React.Suspense>
-                )}
+                <Maps/>
             </Layout>
         </>
     )
