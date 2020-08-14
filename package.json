@@ -27,7 +27,6 @@
     "react-helmet": "^6.1.0",
     "react-id-swiper": "^4.0.0",
     "react-iframe": "^1.8.0",
-    "react-lazyload": "^3.0.0",
     "swiper": "^6.0.4"
   },
   "devDependencies": {
