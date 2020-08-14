@@ -1,6 +1,7 @@
 import React from "react"
 
 import loadable from '@loadable/component'
+import LazyLoad from "react-lazyload"
 
 import Layout from "../components/layout"
 const SEO = loadable(() => import("../components/seo"));
@@ -13,9 +14,14 @@ const Maps = loadable(() => import("../components/maps"));
 const Egzos = loadable(() => import("../components/egzos"));
 const Ldjson = loadable(() => import("../components/ldjson"));
 
+const Loading =() => (
+    <div className="lazyload">
+        <h5>Loading</h5>
+    </div>
+)
 const IndexPage = () => (
   <Layout >
-      <Ldjson />
+    <Ldjson />
     <SEO title  ="Gaziantep'in LPG Otogaz Hastanesi" />
     <Slider />
     <LpgMontaj />
@@ -23,7 +29,9 @@ const IndexPage = () => (
     <Contact/>
     <Arizatespit/>
     <Egzos />
-    <Maps/>
+    <LazyLoad placeholder={<Loading />}>
+        <Maps/>
+    </LazyLoad>
   </Layout>
 )
 

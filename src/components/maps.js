@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Row, Col, Table } from "react-bootstrap"
-import {GoogleMap, withScriptjs, withGoogleMap, Marker} from "react-google-maps";
 import Whatsapp from "../components/Svg/Whatsapp"
 import Sabittel from "../components/Svg/Sabittel"
 import Smartphone from "../components/Svg/Smartphone"

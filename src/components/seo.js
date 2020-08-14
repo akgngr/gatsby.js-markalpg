@@ -76,6 +76,26 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name:`DC.title`,
+          content: `Kusget Sanayi`
+        },
+        {
+          name: `geo.region`,
+          content: `TR-27`
+        },
+        {
+          name: `geo.placename`,
+          content: `Şehitkamil`
+        },
+        {
+          name: `geo.position`,
+          content: `37.079368;37.430778`
+        },
+        {
+          name: `ICBM`,
+          content: `37.079368, 37.430778`
+        }
       ].concat(meta)}
     />
   )
@@ -86,7 +106,6 @@ SEO.defaultProps = {
   meta: [],
   description: ``,
 }
-
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
