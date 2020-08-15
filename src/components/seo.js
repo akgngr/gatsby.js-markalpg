@@ -95,6 +95,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `ICBM`,
           content: `37.079368, 37.430778`
+        },
+        {
+          name: `yandex-verification`,
+          content: `54af8b5653c8044c`
         }
       ].concat(meta)}
     />
