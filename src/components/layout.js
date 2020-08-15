@@ -27,6 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <div id="ana"></div>
       <Mainmenu siteTitle={data.site.siteMetadata.title} />
       <main>
         {children}

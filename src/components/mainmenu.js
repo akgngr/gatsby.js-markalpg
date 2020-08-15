@@ -13,7 +13,7 @@ import { Brand } from "react-bootstrap/Navbar"
 const Mainmenu = ({ siteTitle }) => (
 
     <Navbar expand="lg" sticky={"top"} className="shadow navbar navbar-expand-lg navbar-light bg-white">
-      <Container id="ana" fluid>
+      <Container fluid>
         <Navbar.Brand href="#ana">
           {siteTitle}
         </Navbar.Brand>
