@@ -41,7 +41,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `keywords`,
-          content: `Gaziantep, Gazikent, Küsget, Lpg Montajı, Otogaz Montajı, Lpg Tamiri, Otogaz Tamiri`
+          content: `Gaziantep, Gazikent, Küsget, Otogaz Yetkili Servis, Lpg Montajı, Otogaz Montajı, Lpg Tamiri, Otogaz Tamiri`
         },
         {
           name: `viewport`,

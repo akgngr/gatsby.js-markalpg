@@ -13,13 +13,15 @@ const Egzos = loadable(() => import("../components/egzos"));
 const Ldjson = loadable(() => import("../components/ldjson"));
 const Maps = loadable(() => import("../components/maps"));
 
+import Fbchat from "../components/fbchat"
+
 function IndexPage()
 {
     return(
         <>
             <Layout >
                 <Ldjson />
-                <SEO title  ="Gaziantep'in LPG Otogaz Hastanesi" />
+                <SEO title  ="Gaziantep'in Özel Otogaz, LPG Yetkili Servisi" />
                 <Slider />
                 <LpgMontaj />
                 <Misyon/>
@@ -27,6 +29,7 @@ function IndexPage()
                 <Arizatespit/>
                 <Egzos />
                 <Maps/>
+                <Fbchat/>
             </Layout>
         </>
     )
