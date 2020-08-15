@@ -38,15 +38,6 @@ const Layout = ({ children }) => {
           {` `}
           <a className="text-info" href="https://www.markaotogaz.com">Marka Otogaz</a>
         </Container>
-          <!-- Load Facebook SDK for JavaScript -->
-          <div id="fb-root"></div>
-          <!-- Your Chat Plugin code -->
-          <div class="fb-customerchat"
-               attribution=setup_tool
-               page_id="105611457923834"
-               logged_in_greeting="Merhaba! Size nasıl yardımcı olabilirim."
-               logged_out_greeting="Merhaba! Size nasıl yardımcı olabilirim.">
-          </div>
       </footer>
     </>
   )
