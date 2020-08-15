@@ -8,11 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/app.css"
 
 import Mainmenu from "./mainmenu"
+import Instagram from "./Svg/instagram";
+import Facebook from "./Svg/facebook";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,9 +36,27 @@ const Layout = ({ children }) => {
       </main>
       <footer className="bg-dark text-white-50 pt-5 pb-5">
         <Container>
-          © {new Date().getFullYear()}, Tüm hakları saklıdır.
-          {` `}
-          <a className="text-info" href="https://www.markaotogaz.com">Marka Otogaz</a>
+         <Row>
+           <Col lg={10} sm={12}>
+             © {new Date().getFullYear()}, Tüm hakları saklıdır.
+             {` `}
+             <a className="text-info" href="https://www.markaotogaz.com">Marka Otogaz</a>
+           </Col>
+           <Col lg={2} sm={12} className="pt-4 pt-lg-0">
+             <ul className="social d-flex justify-content-lg-end justify-content-sm-start">
+               <li><a target="_blank" href="https://www.instagram.com/marka.otogaz"><Instagram /></a></li>
+               <li className="fb"><a target="_blank" href="https://www.facebook.com/Marka-Otogaz-105611457923834"><Facebook /></a></li>
+             </ul>
+           </Col>
+         </Row>
+          <hr />
+          <Row>
+            <Col>
+              Design by
+              <a className="text-info" target="_blank" href="https://akgngr.github.com"> akgngr</a> &
+              <a className="text-info" target="_blank" href="https://www.harmonyajans.com"> Harmonyajans</a>
+            </Col>
+          </Row>
         </Container>
       </footer>
     </>

@@ -9,6 +9,14 @@ function Fbchat(){
                 version          : 'v8.0'
             });
         };
+        window.fbAsyncInit = function() {
+            window.FB.init({
+                appId      : '105611457923834', // Facebook login
+                cookie     : true,
+                xfbml      : true,
+                version    : 'v8.0'
+            });
+        };
         (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;

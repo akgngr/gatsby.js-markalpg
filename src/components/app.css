@@ -109,3 +109,15 @@
      height: 100%;
     }
 }
+ul.social{
+    padding: 0;
+}
+ul.social li{
+    list-style: none;
+}
+ul.social li a svg{
+    width: 40px;
+}
+.fb{
+    padding-left: 2rem;
+}
