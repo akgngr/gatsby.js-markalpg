@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 const facebookAppId = "105611457923834"
 
 function Fbchat(){
-    useEffect(()=>{
+    React.useEffect(()=>{
         window.fbAsyncInit = function() {
             window.FB.init({
                 xfbml            : true,
