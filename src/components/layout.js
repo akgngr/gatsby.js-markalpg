@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/app.css"
+import { Helmet } from "react-helmet"
 
 import Mainmenu from "./mainmenu"
 import Instagram from "./Svg/instagram";

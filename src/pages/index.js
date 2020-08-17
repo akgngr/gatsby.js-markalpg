@@ -14,24 +14,30 @@ const Ldjson = loadable(() => import("../components/ldjson"));
 const Maps = loadable(() => import("../components/maps"));
 
 import Fbchat from "../components/fbchat"
+import {Helmet} from "react-helmet";
 
 function IndexPage()
 {
     return(
-        <>
-            <Layout >
-                <Ldjson />
-                <SEO title  ="Gaziantep'in Özel Otogaz, LPG Yetkili Servisi" />
-                <Slider />
-                <LpgMontaj />
-                <Misyon/>
-                <Contact/>
-                <Arizatespit/>
-                <Egzos />
-                <Maps/>
-                <Fbchat/>
-            </Layout>
-        </>
+    <>
+    <Layout >
+        <Ldjson />
+        <Helmet>
+        <title>
+            Marka otogaz, gaziantep otogaz montajı lpg montajı otogaz yetkili servis lpg yetkili servis otogaz tamiri lpg tamiri
+        </title>
+            <meta name="description" content="Marka otogaz, gaziantep otogaz montajı lpg montajı otogaz yetkili servis lpg yetkili servis otogaz tamiri lpg tamiri" />
+        </Helmet>
+        <Slider />
+        <LpgMontaj />
+        <Misyon/>
+        <Contact/>
+        <Arizatespit/>
+        <Egzos />
+        <Maps/>
+        <Fbchat/>
+    </Layout>
+    </>
     )
 }
 
