@@ -26,7 +26,7 @@ const Maps = () => (
                     {!isSSR && (
                         <React.Suspense fallback={<div />}>
                             <Iframe
-                                url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d795.7704408566768!2d37.430409629198984!3d37.07935946867831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e5b67e53271d%3A0x3cda8068a8e7c8cc!2sSanayi%2C%2060053.%20Cd.%20No%3A2%2C%2027110%20%C5%9Eehitkamil%2FGaziantep!5e0!3m2!1str!2str!4v1597223301516!5m2!1str!2str"
+                                url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d421.54588141364354!2d37.43042661722275!3d37.07915187303673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d3c1f51541f0310!2sMarka%20Otogaz!5e0!3m2!1str!2str!4v1599336393238!5m2!1str!2str"
                                 width="100%"
                                 height="400px"
                                 className="lazyload"

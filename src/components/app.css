@@ -12,9 +12,9 @@
 .lpg-montaj .swiper-slide svg{
 	width: 60%;
 }
-.brc{
+/*.brc{
     height: 95px;
-}
+}*/
 .misyon-container .swiper-container{
     height: 450px;
     
@@ -41,16 +41,16 @@
 	align-items: center;
 }
 .misyonbir{
-    background-image: url("images/11.webp");
+    background-image: url("images/11.jpg");
 }
 .misyoniki{
-    background-image: url("images/12.webp");
+    background-image: url("images/12.jpg");
 }
 .misyonuc{
-    background-image: url("images/13.webp");
+    background-image: url("images/13.jpg");
 }
 .misyondort{
-    background-image: url("images/14.webp");
+    background-image: url("images/14.jpg");
 }
 .contact svg{
     fill: white;

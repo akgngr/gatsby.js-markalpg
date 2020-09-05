@@ -24,7 +24,7 @@ const Egzos = () =>(
                             <li>Egzoz Gazı Emisyon Ölçümü yapılacak aracın Tescil Belgesi.</li>
                             <li>T.C Kimlik no'sunu gösteren nüfus cüzdanı, ehliyet veya pasaportunuzu yanınızda getiriniz.</li>
                         </ul>
-                        <Link to="#maps">Detaylı bilgi için iletişime geçin.</Link>
+                        <Link to="#iletisim">Detaylı bilgi için iletişime geçin.</Link>
                     </Col>
                     <Col lg={6} sm={12} md={6} xs={12}><EgzosEmisyonu /></Col>
                 </Row>
