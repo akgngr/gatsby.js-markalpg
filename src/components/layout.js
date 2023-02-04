@@ -54,8 +54,7 @@ const Layout = ({ children }) => {
           <Row>
             <Col>
               Design by
-              <a className="text-info" target="_blank" href="https://akgngr.github.com"> akgngr</a> &
-              <a className="text-info" target="_blank" href="https://www.harmonyajans.com"> Harmonyajans</a>
+              <a className="text-info" target="_blank" href="https://akgngr.com"> akgngr</a>
             </Col>
           </Row>
         </Container>
